@@ -1,6 +1,6 @@
 def bubblesort(arr):
     #initialze variables (comparisons, swaps)
-    comps, swaps = 0,0    
+    comps, swaps = 0,1    
     #keep bubbling until no swaps
     while swaps > 0:
         comps += 1

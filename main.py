@@ -19,7 +19,7 @@ while startingarrgen not in ["1", "2"]:
     print("Invalid")
     startingarrgen = input(
         '''\nEnter 1 if you want the program to generate an array of number.\nEnter 2 if you want to import numbers from a text file: ''')
-
+listtype = "int"
 startarray = []
 if startingarrgen == "1":
     n = input("\nHow many integers would you like to generate: ")
