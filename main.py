@@ -68,7 +68,7 @@ def sort(arr):
             print("Time taken for bubblesort: ", round(
                 (time.time() - starttime) * 1000, 2), "milliseconds. Comparisons:", sortedarr[1], "Big O: n squared. Omega: n.")
         else:
-            print("Sorry insertion sort only works with integers")
+            print("Sorry bubble sort only works with integers")
             sortedarr=[0,0]
     elif whichsort == "2":
         if listtype == "int":
